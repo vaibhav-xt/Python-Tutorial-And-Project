@@ -1,0 +1,6 @@
+Diomand Shape Problem
+Adding, Subtracting and Multiplication of two matrices
+Fibonacci
+HCF and LCM
+Prime Number
+Pattern
