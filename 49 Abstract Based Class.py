@@ -1,5 +1,5 @@
-from abc import ABC, abstractmethod
-class shape(ABC):
+from abc import ABC, abstractmethod # or replace it through ABCmeta
+class shape(ABC): # here also we can replace with metaclass= ABCmeta
     @abstractmethod
     def printarea(self):
         return 0
