@@ -14,9 +14,9 @@ def matrix(m, n):
 
 def sum(A, B):
     output = []
-    for i in range(len(A)):  # number of rows
+    for i in range(len(A)):  # number of columns
         row = []
-        for j in range(len(A[0])):  # number of columns
+        for j in range(len(A[0])):  # number of rows
             row.append(A[i][j] + B[i][j])
         output.append(row)
     return output
