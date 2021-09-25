@@ -15,6 +15,7 @@ def soldier(path, file, format):
             os.rename(file, f"{i}{format}")
             i += 1
 
+# Here txt file is that file in which file name is written so that those file name doesn't change.
 soldier(r"C:\Users\REX TERIA\Desktop\pic", r"C:\Users\REX TERIA\Desktop\pic\that.txt", ".png")
 
 
