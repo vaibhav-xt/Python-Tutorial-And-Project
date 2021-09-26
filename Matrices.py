@@ -35,7 +35,7 @@ print(sum(A, B))
 """
 
 # multiplication of two number
-
+"""
 def matrix1(m, n):
     o = []
     for i in range(m):
@@ -79,4 +79,27 @@ if m == y:
     print(f"The Multiplication of {A} and {B} is {c}")
 else:
     print(f"Multiplication of A and B is not possible.")
+"""
+
+# L.C.M & H.C.F
+
+m = int(input("Enter the Value of m: "))
+n = int(input("Enter the Value of n: "))
+maxNum = max(m, n)
+
+while True:
+    if maxNum % m == 0 and maxNum % n == 0:
+        break
+    maxNum += 1
+print(f"L.C.M is {maxNum}")
+
+if m > n:
+    smaller = n
+else:
+    smaller = m
+for i in range(1, smaller + 1):
+    if m % i == 0 and n % i == 0:
+        hcf = i
+
+print(f"H.C.F is {hcf}")
 
