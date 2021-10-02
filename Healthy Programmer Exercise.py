@@ -44,7 +44,7 @@ if __name__ == '__main__':
                 notification.notify(
                     title="Drink water!",
                     message="Water is your body's principal chemical component and makes up about 50% to 70% of your body weight.",
-                    app_icon="C:\\Users\\REX TERIA\\PycharmProjects\\py-1\\glass.ico",
+                    app_icon="C:\\Users\\REX TERIA\\PycharmProjects\\pythonProject\\glass.ico",
                 )
                 print("Drinking Water. To Stop Music write 'Drank'!")
                 humanactivity('drink water.mp3')
@@ -56,7 +56,7 @@ if __name__ == '__main__':
                 notification.notify(
                     title="Rest To You Eye!",
                     message="Eye is everything for us.",
-                    app_icon="C:\\Users\\REX TERIA\\PycharmProjects\\py-1\\eye.ico",
+                    app_icon="C:\\Users\\REX TERIA\\PycharmProjects\\pythonProject\\eye.ico",
                 )
                 print("Rest to your Eyes. To Stop Music write 'Eyedone'")
                 humanactivity("Eye-Water.mp3")
@@ -68,7 +68,7 @@ if __name__ == '__main__':
                 notification.notify(
                     title="Its Time To Do Exercise",
                     message="Keep Doing for you health as per notification.",
-                    app_icon="C:\\Users\\REX TERIA\\PycharmProjects\\py-1\\meditation.ico",
+                    app_icon="C:\\Users\\REX TERIA\\PycharmProjects\\pythonProject\\meditation.ico",
                     )
                 print("Do Exercise. To Stop Music write 'Exerdone'")
                 humanactivity("Exercise Music.mp3")
