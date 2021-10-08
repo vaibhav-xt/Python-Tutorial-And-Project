@@ -1,5 +1,5 @@
 """
-f = open("Vaibhav.txt", "rt")
+f = open("story.txt", "rt")
 # print(f.readline())
 print(f.readlines())   # it return in list
 
@@ -21,12 +21,12 @@ f.close()
 """
 # WRITE
 
-# h = open("Vaibhav.txt", "w")
-h = open("Vaibhav.txt", "a")  # if we write a then file will open in append mode
+# h = open("story.txt", "w")
+h = open("story.txt", "a")  # if we write a then file will open in append mode
 a = h.write("Vaibhav bhai bahut acche hai\n")
 print(a)    # it return no. of character
 h.close()
 
-h = open("Vaibhav.txt", "r+")  # r+ means read and write both
+h = open("story.txt", "r+")  # r+ means read and write both
 print(h.read())
 h.write("thankyou")

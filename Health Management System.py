@@ -6,7 +6,7 @@ client_list = []
 
 
 def fetch_data():
-    with open('Vaibhav.txt', 'rt') as ff:
+    with open('story.txt', 'rt') as ff:
         ff.read()
         eof = ff.tell()
         ff.seek(0)
@@ -33,7 +33,7 @@ def choice():
 
 
 def save():
-    with open('Vaibhav.txt', 'w') as fp:
+    with open('story.txt', 'w') as fp:
         for x in client_list:
             str_name = x
             str_name = str_name + '\n'
@@ -48,7 +48,7 @@ def getdate():
 
 def add_client(name):
     client_list.append(name)
-    with open('Vaibhav.txt', 'a') as fp:
+    with open('story.txt', 'a') as fp:
         for x in client_list:
             str_name = x
             str_name = str_name + '\n'
